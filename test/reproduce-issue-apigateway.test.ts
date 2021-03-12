@@ -5,7 +5,7 @@ import * as ReproduceIssueApigateway from '../lib/reproduce-issue-apigateway-sta
 test('Empty Stack', () => {
     const app = new cdk.App();
     // WHEN
-    const stack = new ReproduceIssueApigateway.ReproduceIssueApigatewayStack(app, 'MyTestStack');
+    const stack = new ReproduceIssueApigateway.ReproduceIssueApigatewayStack(app);
     // THEN
     expectCDK(stack).to(matchTemplate({
       "Resources": {}

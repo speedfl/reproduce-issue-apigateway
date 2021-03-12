@@ -4,4 +4,4 @@ import * as cdk from '@aws-cdk/core';
 import { ReproduceIssueApigatewayStack } from '../lib/reproduce-issue-apigateway-stack';
 
 const app = new cdk.App();
-new ReproduceIssueApigatewayStack(app, 'ReproduceIssueApigatewayStack');
+new ReproduceIssueApigatewayStack(app);
